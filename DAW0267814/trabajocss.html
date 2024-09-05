@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajocss1</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            position: relative;
+        }
+
+        .flag {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+        }
+
+        .flag .box {
+            width: 50px;
+            height: 100px;
+        }
+
+        .blue {
+            background-color: #002B7F; /* Azul de la bandera rumana */
+        }
+
+        .yellow {
+            background-color: #FCD116; /* Amarillo de la bandera rumana */
+        }
+
+        .red {
+            background-color: #CE1126; /* Rojo de la bandera rumana */
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .center-box {
+            width: 200px;
+            height: 200px;
+        }
+
+        .box1 {
+            background-color: #ff9999;
+            border: 10px solid black;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .box2 {
+            background-color: #99ccff;
+            border: 20px solid black;
+        }
+
+        .box3 {
+            background-color: #99ff99;
+            border: 10px solid black;
+        }
+
+        .box4 {
+            background-color: #ffff99;
+        }
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="box blue"></div>
+        <div class="box yellow"></div>
+        <div class="box red"></div>
+    </div>
+
+    <div class="container">
+        <div class="center-box box1"></div>
+        <div class="center-box box2"></div>
+        <div class="center-box box3"></div>
+        <div class="center-box box4"></div>
+    </div>
+</body>
+</html>

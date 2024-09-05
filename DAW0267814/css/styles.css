@@ -1,0 +1,108 @@
+
+        img{
+            width: 310px;
+            border: solid;
+        }
+        
+        li {
+            text-decoration: underline;
+        }
+        .pepe{
+                border: radius;
+                width: 250px;
+        }
+
+        .sepred{
+            border-bottom: 6px dotted crimson;
+        }
+
+        h2:hover{
+            color: crimson;
+            font-weight: bolder;
+        }
+
+        h3:hover{
+            font-size: large;
+            color: rgb(126, 5, 126);
+        }
+        
+        tr:hover:nth-child(1){
+            color: blueviolet;
+            background-color: aquamarine;
+        }
+        tr:hover:nth-child(2){
+            background-color: rgb(10, 212, 67);
+        }
+        tr:hover:nth-child(3){
+            color: aliceblue;
+            background-color: rgb(15, 67, 163);
+        }
+        tr:hover:nth-child(4){
+            background-color: rgb(226, 33, 4);
+        }
+        tr:hover:nth-child(5){
+            color: white;
+            background-color: blueviolet;
+        }
+
+        .main{
+            border: 5px dotted rebeccapurple;
+        }
+
+        .info
+        {
+            border: 4px dotted greenyellow;
+            
+            
+        }
+
+        .image
+        {
+            border: 4px dotted rgb(13, 130, 240);
+            
+        }
+
+        .title_info
+        {
+            position: relative;
+            left: 355px;
+        }
+
+        .lat
+        {
+            display: inline;
+        }
+        .lon
+        {
+            display: inline-block;
+        }
+        .lat_lon
+        {
+            align-items: flex-end;
+        }
+        .backgr{
+            background-color: aquamarine;
+        }
+
+        .fotomia{
+            position: relative;
+            left: 355px;
+        }
+        .imagenstatic{
+            position: static; 
+            top: 10px; 
+          width: 150px;
+         
+        }
+        .imagensticky {
+            position: sticky;
+            top: 10px; 
+          width: 150px;
+          }
+            
+        
+        
+        .content {
+            height: 2000px; 
+            padding-top: 50px;
+        }
